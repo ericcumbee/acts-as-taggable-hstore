@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email = %q{jt@twitch.tv}
   gem.homepage      = 'https://github.com/jtvjt/acts-as-taggable-hstore'
 
-  gem.add_runtime_dependency 'rails', '~> 3.0'
+  gem.add_runtime_dependency 'rails', '~> 4.0'
   gem.add_runtime_dependency 'activerecord-postgres-hstore-core', "~> 0.0.5"
   gem.add_development_dependency 'rspec', '~> 2.6'
   gem.add_development_dependency 'ammeter', '~> 0.1.3'
